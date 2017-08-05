@@ -1,0 +1,61 @@
+syntax = "proto3";
+
+option java_package = "com.nongped.protobuf.common";
+option optimize_for = SPEED;
+
+enum OccupancyModel {
+    FullRate = 0;
+    ExtraPerson = 1;
+    ExtraAdultAndChild = 2;
+    RateMatrix = 3;
+    RateMatrixAdultAndChild = 4;
+    FullPatternLengthOfStay = 5;
+}
+
+enum TaxType {
+    UnknowTaxType = 0;
+    SimpleTax = 1;
+    ComprehensiveTaxHotelLevel = 2;
+    ComprehensiveTaxRoomLevel = 3;
+}
+
+enum PaymentModel {
+    UnknowPaymentModel = 0;
+    Merchant = 1;
+    Agency = 2;
+    MerchatCommission = 3;
+}
+
+enum RateType {
+    NetExc = 0;
+    NetInc = 1;
+    SellExc = 2;
+    SellInc = 3;
+}
+
+enum ChargeType {
+    Room = 0;
+    ExtraBed = 1;
+    ExtraAdult = 2;
+    ExtraChild = 3;
+}
+
+
+enum ApplyType {
+    Mandatory = 0;
+    Optional = 1;
+    HotelOption = 2;
+    Included = 3;
+    Exculded = 4;
+}
+
+enum PolicyChargeType {
+    Night = 0;
+    Percentage = 1;
+    Amount = 2;
+}
+
+enum PaymentType {
+    isFree = 0;
+    isTaxable = 1;
+}
