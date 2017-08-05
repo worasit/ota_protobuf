@@ -1,0 +1,11 @@
+syntax = "proto2";
+
+option java_package = "com.nongped.protobuf.queue";
+
+message StatusApplicationControl {
+    required int64 startDateInMillis = 1;
+    required int64 endDateInMillis = 2;
+    required string roomTypeId = 3;
+    optional string ratePlanId = 4;
+
+}

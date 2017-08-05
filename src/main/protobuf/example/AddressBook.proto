@@ -1,0 +1,27 @@
+syntax = "proto2";
+
+option java_package = "com.nongped.protobuf.example";
+option java_outer_classname = "AddressBookProtos";
+
+message Person {
+
+    enum PhoneType {
+        Mobile = 0;
+        Home = 1;
+        Work = 2;
+    }
+
+    message PhoneNumber {
+        required string number = 1;
+        optional PhoneType type = 2 [default = Home];
+    }
+
+    required string name = 1;
+    required int32 id = 2;
+    optional string email = 3;
+    repeated PhoneNumber phones = 4;
+}
+
+message AddressBook {
+    repeated Person people = 1;
+}
