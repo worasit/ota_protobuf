@@ -1,4 +1,4 @@
-[info] Updating {file:/Users/worasitdaimongkol/Repositories/ota_protobuf/project/}ota_protobuf-build...
+[info] Updating {file:/Users/wdaimongkol/PrivateRepositories/ota_protobuf/project/}ota_protobuf-build...
 [debug] :: resolving dependencies :: default#ota_protobuf-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -22,7 +22,7 @@
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.thesamet/sbt-protoc/scala_2.10/sbt_0.13/0.99.11/ivys/ivy.xml
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.thesamet/sbt-protoc/scala_2.10/sbt_0.13/0.99.11/ivys/ivy.xml.sha1
 [debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.thesamet/sbt-protoc/scala_2.10/sbt_0.13/0.99.11/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] com.thesamet#sbt-protoc;0.99.11!ivy.xml(ivy.original) (8878ms)
+[debug] 	[SUCCESSFUL ] com.thesamet#sbt-protoc;0.99.11!ivy.xml(ivy.original) (5186ms)
 [debug] 	found com.thesamet#sbt-protoc;0.99.11 in sbt-plugin-releases
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.thesamet#sbt-protoc;0.99.11->com.github.os72#protoc-jar;3.3.0 [compile->default(compile)]
@@ -40,7 +40,7 @@
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.os72/protoc-jar/3.3.0/ivys/ivy.xml
 [debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.os72/protoc-jar/3.3.0/ivys/ivy.xml
 [debug] 	sbt-plugin-releases: no ivy file found for com.github.os72#protoc-jar;3.3.0
-[debug] 		tried /Users/worasitdaimongkol/.ivy2/local/com.github.os72/protoc-jar/3.3.0/ivys/ivy.xml
+[debug] 		tried /Users/wdaimongkol/.ivy2/local/com.github.os72/protoc-jar/3.3.0/ivys/ivy.xml
 [debug] 	local: no ivy file found for com.github.os72#protoc-jar;3.3.0
 [debug] 		tried https://repo1.maven.org/maven2/com/github/os72/protoc-jar/3.3.0/protoc-jar-3.3.0.pom
 [debug] 	public: found md file for com.github.os72#protoc-jar;3.3.0
@@ -49,7 +49,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/os72/protoc-jar/3.3.0/protoc-jar-3.3.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/os72/protoc-jar/3.3.0/protoc-jar-3.3.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/github/os72/protoc-jar/3.3.0/protoc-jar-3.3.0.pom
-[debug] 	[SUCCESSFUL ] com.github.os72#protoc-jar;3.3.0!protoc-jar.pom(pom.original) (1850ms)
+[debug] 	[SUCCESSFUL ] com.github.os72#protoc-jar;3.3.0!protoc-jar.pom(pom.original) (1370ms)
 [info] Resolving org.sonatype.oss#oss-parent;9 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;9 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;9
@@ -57,7 +57,7 @@
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.github.os72/protoc-jar/3.3.0/jars/protoc-jar.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.os72/protoc-jar/3.3.0/jars/protoc-jar.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.os72/protoc-jar/3.3.0/jars/protoc-jar.jar
-[debug] 		tried /Users/worasitdaimongkol/.ivy2/local/com.github.os72/protoc-jar/3.3.0/jars/protoc-jar.jar
+[debug] 		tried /Users/wdaimongkol/.ivy2/local/com.github.os72/protoc-jar/3.3.0/jars/protoc-jar.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/github/os72/protoc-jar/3.3.0/protoc-jar-3.3.0.jar
 [debug] 	found com.github.os72#protoc-jar;3.3.0 in public
 [debug] == resolving dependencies com.thesamet#sbt-protoc;0.99.11->com.github.os72#protoc-jar;3.3.0 [compile->runtime]
@@ -78,7 +78,7 @@
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.trueaccord.scalapb/protoc-bridge_2.10/0.2.7/ivys/ivy.xml
 [debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.trueaccord.scalapb/protoc-bridge_2.10/0.2.7/ivys/ivy.xml
 [debug] 	sbt-plugin-releases: no ivy file found for com.trueaccord.scalapb#protoc-bridge_2.10;0.2.7
-[debug] 		tried /Users/worasitdaimongkol/.ivy2/local/com.trueaccord.scalapb/protoc-bridge_2.10/0.2.7/ivys/ivy.xml
+[debug] 		tried /Users/wdaimongkol/.ivy2/local/com.trueaccord.scalapb/protoc-bridge_2.10/0.2.7/ivys/ivy.xml
 [debug] 	local: no ivy file found for com.trueaccord.scalapb#protoc-bridge_2.10;0.2.7
 [debug] 		tried https://repo1.maven.org/maven2/com/trueaccord/scalapb/protoc-bridge_2.10/0.2.7/protoc-bridge_2.10-0.2.7.pom
 [debug] 	public: found md file for com.trueaccord.scalapb#protoc-bridge_2.10;0.2.7
@@ -87,12 +87,12 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/trueaccord/scalapb/protoc-bridge_2.10/0.2.7/protoc-bridge_2.10-0.2.7.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/trueaccord/scalapb/protoc-bridge_2.10/0.2.7/protoc-bridge_2.10-0.2.7.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/trueaccord/scalapb/protoc-bridge_2.10/0.2.7/protoc-bridge_2.10-0.2.7.pom
-[debug] 	[SUCCESSFUL ] com.trueaccord.scalapb#protoc-bridge_2.10;0.2.7!protoc-bridge_2.10.pom(pom.original) (1233ms)
+[debug] 	[SUCCESSFUL ] com.trueaccord.scalapb#protoc-bridge_2.10;0.2.7!protoc-bridge_2.10.pom(pom.original) (970ms)
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.trueaccord.scalapb/protoc-bridge_2.10/0.2.7/jars/protoc-bridge_2.10.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.trueaccord.scalapb/protoc-bridge_2.10/0.2.7/jars/protoc-bridge_2.10.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.trueaccord.scalapb/protoc-bridge_2.10/0.2.7/jars/protoc-bridge_2.10.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.trueaccord.scalapb/protoc-bridge_2.10/0.2.7/jars/protoc-bridge_2.10.jar
-[debug] 		tried /Users/worasitdaimongkol/.ivy2/local/com.trueaccord.scalapb/protoc-bridge_2.10/0.2.7/jars/protoc-bridge_2.10.jar
+[debug] 		tried /Users/wdaimongkol/.ivy2/local/com.trueaccord.scalapb/protoc-bridge_2.10/0.2.7/jars/protoc-bridge_2.10.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/trueaccord/scalapb/protoc-bridge_2.10/0.2.7/protoc-bridge_2.10-0.2.7.jar
 [debug] 	found com.trueaccord.scalapb#protoc-bridge_2.10;0.2.7 in public
 [debug] == resolving dependencies com.thesamet#sbt-protoc;0.99.11->com.trueaccord.scalapb#protoc-bridge_2.10;0.2.7 [compile->runtime]
@@ -136,7 +136,7 @@
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.protobuf/protobuf-java/3.3.1/ivys/ivy.xml
 [debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.protobuf/protobuf-java/3.3.1/ivys/ivy.xml
 [debug] 	sbt-plugin-releases: no ivy file found for com.google.protobuf#protobuf-java;3.3.1
-[debug] 		tried /Users/worasitdaimongkol/.ivy2/local/com.google.protobuf/protobuf-java/3.3.1/ivys/ivy.xml
+[debug] 		tried /Users/wdaimongkol/.ivy2/local/com.google.protobuf/protobuf-java/3.3.1/ivys/ivy.xml
 [debug] 	local: no ivy file found for com.google.protobuf#protobuf-java;3.3.1
 [debug] 		tried https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.3.1/protobuf-java-3.3.1.pom
 [debug] 	public: found md file for com.google.protobuf#protobuf-java;3.3.1
@@ -145,7 +145,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.3.1/protobuf-java-3.3.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.3.1/protobuf-java-3.3.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.3.1/protobuf-java-3.3.1.pom
-[debug] 	[SUCCESSFUL ] com.google.protobuf#protobuf-java;3.3.1!protobuf-java.pom(pom.original) (1537ms)
+[debug] 	[SUCCESSFUL ] com.google.protobuf#protobuf-java;3.3.1!protobuf-java.pom(pom.original) (826ms)
 [info] Resolving com.google.protobuf#protobuf-parent;3.3.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.google.protobuf#protobuf-parent;3.3.1 {}
 [info] Resolving com.google.protobuf#protobuf-parent;3.3.1 ...
@@ -156,7 +156,7 @@
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.protobuf/protobuf-parent/3.3.1/ivys/ivy.xml
 [debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.protobuf/protobuf-parent/3.3.1/ivys/ivy.xml
 [debug] 	sbt-plugin-releases: no ivy file found for com.google.protobuf#protobuf-parent;3.3.1
-[debug] 		tried /Users/worasitdaimongkol/.ivy2/local/com.google.protobuf/protobuf-parent/3.3.1/ivys/ivy.xml
+[debug] 		tried /Users/wdaimongkol/.ivy2/local/com.google.protobuf/protobuf-parent/3.3.1/ivys/ivy.xml
 [debug] 	local: no ivy file found for com.google.protobuf#protobuf-parent;3.3.1
 [debug] 		tried https://repo1.maven.org/maven2/com/google/protobuf/protobuf-parent/3.3.1/protobuf-parent-3.3.1.pom
 [debug] 	public: found md file for com.google.protobuf#protobuf-parent;3.3.1
@@ -165,46 +165,22 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-parent/3.3.1/protobuf-parent-3.3.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-parent/3.3.1/protobuf-parent-3.3.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/google/protobuf/protobuf-parent/3.3.1/protobuf-parent-3.3.1.pom
-[debug] 	[SUCCESSFUL ] com.google.protobuf#protobuf-parent;3.3.1!protobuf-parent.pom(pom.original) (1153ms)
+[debug] 	[SUCCESSFUL ] com.google.protobuf#protobuf-parent;3.3.1!protobuf-parent.pom(pom.original) (1449ms)
 [info] Resolving com.google#google;1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.google#google;1 {}
-[info] Resolving com.google#google;1 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.google#google;1 {}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.google/google/1/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.google/google/1/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for com.google#google;1
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google/google/1/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google/google/1/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for com.google#google;1
-[debug] 		tried /Users/worasitdaimongkol/.ivy2/local/com.google/google/1/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.google#google;1
-[debug] 		tried https://repo1.maven.org/maven2/com/google/google/1/google-1.pom
-[debug] 	public: found md file for com.google#google;1
-[debug] 		=> https://repo1.maven.org/maven2/com/google/google/1/google-1.pom (1)
-[debug] downloading https://repo1.maven.org/maven2/com/google/google/1/google-1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/google/1/google-1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/google/1/google-1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/google/1/google-1.pom
-[debug] 	[SUCCESSFUL ] com.google#google;1!google.pom(pom.original) (938ms)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.google/google/1/jars/google.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.google/google/1/jars/google.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google/google/1/jars/google.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google/google/1/jars/google.jar
-[debug] 		tried /Users/worasitdaimongkol/.ivy2/local/com.google/google/1/jars/google.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/google/google/1/google-1.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/google/google/1/google-1.jar
+[debug] sbt-chain: module revision found in cache: com.google#google;1
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.google.protobuf/protobuf-parent/3.3.1/jars/protobuf-parent.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.google.protobuf/protobuf-parent/3.3.1/jars/protobuf-parent.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.protobuf/protobuf-parent/3.3.1/jars/protobuf-parent.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.protobuf/protobuf-parent/3.3.1/jars/protobuf-parent.jar
-[debug] 		tried /Users/worasitdaimongkol/.ivy2/local/com.google.protobuf/protobuf-parent/3.3.1/jars/protobuf-parent.jar
+[debug] 		tried /Users/wdaimongkol/.ivy2/local/com.google.protobuf/protobuf-parent/3.3.1/jars/protobuf-parent.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/google/protobuf/protobuf-parent/3.3.1/protobuf-parent-3.3.1.jar
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/google/protobuf/protobuf-parent/3.3.1/protobuf-parent-3.3.1.jar
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.google.protobuf/protobuf-java/3.3.1/bundles/protobuf-java.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.google.protobuf/protobuf-java/3.3.1/bundles/protobuf-java.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.protobuf/protobuf-java/3.3.1/bundles/protobuf-java.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.protobuf/protobuf-java/3.3.1/bundles/protobuf-java.jar
-[debug] 		tried /Users/worasitdaimongkol/.ivy2/local/com.google.protobuf/protobuf-java/3.3.1/bundles/protobuf-java.jar
+[debug] 		tried /Users/wdaimongkol/.ivy2/local/com.google.protobuf/protobuf-java/3.3.1/bundles/protobuf-java.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.3.1/protobuf-java-3.3.1.jar
 [debug] 	found com.google.protobuf#protobuf-java;3.3.1 in public
 [debug] == resolving dependencies com.trueaccord.scalapb#protoc-bridge_2.10;0.2.7->com.google.protobuf#protobuf-java;3.3.1 [compile->compile(*)]
@@ -242,8 +218,31 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [info] Resolving com.trueaccord.scalapb#compilerplugin_2.10;0.6.0 ...
 [debug] sbt-chain: Checking cache for: dependency: com.trueaccord.scalapb#compilerplugin_2.10;0.6.0 {compile=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: com.trueaccord.scalapb#compilerplugin_2.10;0.6.0
-[debug] 	found com.trueaccord.scalapb#compilerplugin_2.10;0.6.0 in sbt-chain
+[info] Resolving com.trueaccord.scalapb#compilerplugin_2.10;0.6.0 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: com.trueaccord.scalapb#compilerplugin_2.10;0.6.0 {compile=[default(compile)]}
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.trueaccord.scalapb/compilerplugin_2.10/0.6.0/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.trueaccord.scalapb/compilerplugin_2.10/0.6.0/ivys/ivy.xml
+[debug] 	typesafe-ivy-releases: no ivy file found for com.trueaccord.scalapb#compilerplugin_2.10;0.6.0
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.trueaccord.scalapb/compilerplugin_2.10/0.6.0/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.trueaccord.scalapb/compilerplugin_2.10/0.6.0/ivys/ivy.xml
+[debug] 	sbt-plugin-releases: no ivy file found for com.trueaccord.scalapb#compilerplugin_2.10;0.6.0
+[debug] 		tried /Users/wdaimongkol/.ivy2/local/com.trueaccord.scalapb/compilerplugin_2.10/0.6.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for com.trueaccord.scalapb#compilerplugin_2.10;0.6.0
+[debug] 		tried https://repo1.maven.org/maven2/com/trueaccord/scalapb/compilerplugin_2.10/0.6.0/compilerplugin_2.10-0.6.0.pom
+[debug] 	public: found md file for com.trueaccord.scalapb#compilerplugin_2.10;0.6.0
+[debug] 		=> https://repo1.maven.org/maven2/com/trueaccord/scalapb/compilerplugin_2.10/0.6.0/compilerplugin_2.10-0.6.0.pom (0.6.0)
+[debug] downloading https://repo1.maven.org/maven2/com/trueaccord/scalapb/compilerplugin_2.10/0.6.0/compilerplugin_2.10-0.6.0.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/trueaccord/scalapb/compilerplugin_2.10/0.6.0/compilerplugin_2.10-0.6.0.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/trueaccord/scalapb/compilerplugin_2.10/0.6.0/compilerplugin_2.10-0.6.0.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/trueaccord/scalapb/compilerplugin_2.10/0.6.0/compilerplugin_2.10-0.6.0.pom
+[debug] 	[SUCCESSFUL ] com.trueaccord.scalapb#compilerplugin_2.10;0.6.0!compilerplugin_2.10.pom(pom.original) (841ms)
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.trueaccord.scalapb/compilerplugin_2.10/0.6.0/jars/compilerplugin_2.10.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.trueaccord.scalapb/compilerplugin_2.10/0.6.0/jars/compilerplugin_2.10.jar
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.trueaccord.scalapb/compilerplugin_2.10/0.6.0/jars/compilerplugin_2.10.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.trueaccord.scalapb/compilerplugin_2.10/0.6.0/jars/compilerplugin_2.10.jar
+[debug] 		tried /Users/wdaimongkol/.ivy2/local/com.trueaccord.scalapb/compilerplugin_2.10/0.6.0/jars/compilerplugin_2.10.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/trueaccord/scalapb/compilerplugin_2.10/0.6.0/compilerplugin_2.10-0.6.0.jar
+[debug] 	found com.trueaccord.scalapb#compilerplugin_2.10;0.6.0 in public
 [debug] == resolving dependencies default#ota_protobuf-build;0.1-SNAPSHOT->com.trueaccord.scalapb#compilerplugin_2.10;0.6.0 [compile->runtime]
 [debug] == resolving dependencies default#ota_protobuf-build;0.1-SNAPSHOT->com.trueaccord.scalapb#compilerplugin_2.10;0.6.0 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -812,9 +811,6 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#launcher-interface;1.0.1 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#launcher-interface;1.0.1
 [debug] 	found org.scala-sbt#launcher-interface;1.0.1 in sbt-chain
-[debug] == resolving dependencies org.scala-sbt#classpath;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->runtime]
-[debug] == resolving dependencies org.scala-sbt#classpath;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->compile]
-[debug] == resolving dependencies org.scala-sbt#classpath;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#actions;0.13.16->org.scala-sbt#completion;0.13.16 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
@@ -1161,9 +1157,6 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
-[debug] == resolving dependencies org.scala-sbt#compile;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->runtime]
-[debug] == resolving dependencies org.scala-sbt#compile;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->compile]
-[debug] == resolving dependencies org.scala-sbt#compile;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#compiler-integration;0.13.16->org.scala-sbt#persist;0.13.16 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
@@ -1336,9 +1329,6 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4
 [debug] 	found org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 in sbt-chain
-[debug] == resolving dependencies org.scala-sbt#ivy;0.13.16->org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 [compile->runtime]
-[debug] == resolving dependencies org.scala-sbt#ivy;0.13.16->org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 [compile->compile]
-[debug] == resolving dependencies org.scala-sbt#ivy;0.13.16->org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#ivy;0.13.16->com.jcraft#jsch;0.1.50 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[default(compile)]}
@@ -1840,9 +1830,6 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
-[debug] == resolving dependencies org.scala-sbt#ivy;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->runtime]
-[debug] == resolving dependencies org.scala-sbt#ivy;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->compile]
-[debug] == resolving dependencies org.scala-sbt#ivy;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#compiler-ivy-integration;0.13.16->org.scala-sbt#compile;0.13.16 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
@@ -2112,9 +2099,6 @@
 [debug] == resolving dependencies org.scala-sbt#testing;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
-[debug] == resolving dependencies org.scala-sbt#testing;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->runtime]
-[debug] == resolving dependencies org.scala-sbt#testing;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->compile]
-[debug] == resolving dependencies org.scala-sbt#testing;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#main;0.13.16->org.scala-sbt#main-settings;0.13.16 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
@@ -2240,9 +2224,6 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
-[debug] == resolving dependencies org.scala-sbt#command;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->runtime]
-[debug] == resolving dependencies org.scala-sbt#command;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->compile]
-[debug] == resolving dependencies org.scala-sbt#command;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#command;0.13.16->org.scala-sbt#template-resolver;0.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
@@ -2304,9 +2285,6 @@
 [debug] == resolving dependencies org.scala-sbt#main;0.13.16->org.scala-sbt#run;0.13.16 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#main;0.13.16->org.scala-sbt#command;0.13.16 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#main;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->default(compile)]
-[debug] == resolving dependencies org.scala-sbt#main;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->runtime]
-[debug] == resolving dependencies org.scala-sbt#main;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->compile]
-[debug] == resolving dependencies org.scala-sbt#main;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.16->org.scala-sbt#compiler-interface;0.13.16 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
@@ -2772,9 +2750,6 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies org.scala-sbt#classpath;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->runtime]
-[debug] == resolving dependencies org.scala-sbt#classpath;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->compile]
-[debug] == resolving dependencies org.scala-sbt#classpath;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#actions;0.13.16->org.scala-sbt#completion;0.13.16 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
@@ -3143,9 +3118,6 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
-[debug] == resolving dependencies org.scala-sbt#compile;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->runtime]
-[debug] == resolving dependencies org.scala-sbt#compile;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->compile]
-[debug] == resolving dependencies org.scala-sbt#compile;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#compiler-integration;0.13.16->org.scala-sbt#persist;0.13.16 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
@@ -3330,9 +3302,6 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies org.scala-sbt#ivy;0.13.16->org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 [compile->runtime]
-[debug] == resolving dependencies org.scala-sbt#ivy;0.13.16->org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 [compile->compile]
-[debug] == resolving dependencies org.scala-sbt#ivy;0.13.16->org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#ivy;0.13.16->com.jcraft#jsch;0.1.50 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[default(compile)]}
@@ -3840,9 +3809,6 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
-[debug] == resolving dependencies org.scala-sbt#ivy;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->runtime]
-[debug] == resolving dependencies org.scala-sbt#ivy;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->compile]
-[debug] == resolving dependencies org.scala-sbt#ivy;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#compiler-ivy-integration;0.13.16->org.scala-sbt#compile;0.13.16 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
@@ -4128,9 +4094,6 @@
 [debug] == resolving dependencies org.scala-sbt#testing;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
-[debug] == resolving dependencies org.scala-sbt#testing;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->runtime]
-[debug] == resolving dependencies org.scala-sbt#testing;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->compile]
-[debug] == resolving dependencies org.scala-sbt#testing;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#main;0.13.16->org.scala-sbt#main-settings;0.13.16 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
@@ -4262,9 +4225,6 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
-[debug] == resolving dependencies org.scala-sbt#command;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->runtime]
-[debug] == resolving dependencies org.scala-sbt#command;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->compile]
-[debug] == resolving dependencies org.scala-sbt#command;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#command;0.13.16->org.scala-sbt#template-resolver;0.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
@@ -4330,9 +4290,6 @@
 [debug] == resolving dependencies org.scala-sbt#main;0.13.16->org.scala-sbt#run;0.13.16 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#main;0.13.16->org.scala-sbt#command;0.13.16 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#main;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->default(compile)]
-[debug] == resolving dependencies org.scala-sbt#main;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->runtime]
-[debug] == resolving dependencies org.scala-sbt#main;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->compile]
-[debug] == resolving dependencies org.scala-sbt#main;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.16->org.scala-sbt#compiler-interface;0.13.16 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
@@ -5018,9 +4975,6 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies org.scala-sbt#classpath;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->runtime]
-[debug] == resolving dependencies org.scala-sbt#classpath;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->compile]
-[debug] == resolving dependencies org.scala-sbt#classpath;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#actions;0.13.16->org.scala-sbt#completion;0.13.16 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
@@ -5433,9 +5387,6 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
-[debug] == resolving dependencies org.scala-sbt#compile;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->runtime]
-[debug] == resolving dependencies org.scala-sbt#compile;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->compile]
-[debug] == resolving dependencies org.scala-sbt#compile;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#compiler-integration;0.13.16->org.scala-sbt#persist;0.13.16 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
@@ -5644,9 +5595,6 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies org.scala-sbt#ivy;0.13.16->org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 [compile->runtime]
-[debug] == resolving dependencies org.scala-sbt#ivy;0.13.16->org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 [compile->compile]
-[debug] == resolving dependencies org.scala-sbt#ivy;0.13.16->org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#ivy;0.13.16->com.jcraft#jsch;0.1.50 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[default(compile)]}
@@ -6190,9 +6138,6 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
-[debug] == resolving dependencies org.scala-sbt#ivy;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->runtime]
-[debug] == resolving dependencies org.scala-sbt#ivy;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->compile]
-[debug] == resolving dependencies org.scala-sbt#ivy;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#compiler-ivy-integration;0.13.16->org.scala-sbt#compile;0.13.16 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
@@ -6510,9 +6455,6 @@
 [debug] == resolving dependencies org.scala-sbt#testing;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
-[debug] == resolving dependencies org.scala-sbt#testing;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->runtime]
-[debug] == resolving dependencies org.scala-sbt#testing;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->compile]
-[debug] == resolving dependencies org.scala-sbt#testing;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#main;0.13.16->org.scala-sbt#main-settings;0.13.16 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
@@ -6656,9 +6598,6 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
-[debug] == resolving dependencies org.scala-sbt#command;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->runtime]
-[debug] == resolving dependencies org.scala-sbt#command;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->compile]
-[debug] == resolving dependencies org.scala-sbt#command;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#command;0.13.16->org.scala-sbt#template-resolver;0.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
@@ -6732,9 +6671,6 @@
 [debug] == resolving dependencies org.scala-sbt#main;0.13.16->org.scala-sbt#run;0.13.16 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#main;0.13.16->org.scala-sbt#command;0.13.16 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#main;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->default(compile)]
-[debug] == resolving dependencies org.scala-sbt#main;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->runtime]
-[debug] == resolving dependencies org.scala-sbt#main;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->compile]
-[debug] == resolving dependencies org.scala-sbt#main;0.13.16->org.scala-sbt#launcher-interface;1.0.1 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.16->org.scala-sbt#compiler-interface;0.13.16 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
@@ -6921,48 +6857,33 @@
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.thesamet/sbt-protoc/scala_2.10/sbt_0.13/0.99.11/jars/sbt-protoc.jar
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.thesamet/sbt-protoc/scala_2.10/sbt_0.13/0.99.11/jars/sbt-protoc.jar.sha1
 [debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.thesamet/sbt-protoc/scala_2.10/sbt_0.13/0.99.11/jars/sbt-protoc.jar
-[info] 	[SUCCESSFUL ] com.thesamet#sbt-protoc;0.99.11!sbt-protoc.jar (11286ms)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.trueaccord.scalapb/compilerplugin_2.10/0.6.0/jars/compilerplugin_2.10.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.trueaccord.scalapb/compilerplugin_2.10/0.6.0/jars/compilerplugin_2.10.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.trueaccord.scalapb/compilerplugin_2.10/0.6.0/jars/compilerplugin_2.10.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.trueaccord.scalapb/compilerplugin_2.10/0.6.0/jars/compilerplugin_2.10.jar
-[debug] 		tried /Users/worasitdaimongkol/.ivy2/local/com.trueaccord.scalapb/compilerplugin_2.10/0.6.0/jars/compilerplugin_2.10.jar
+[info] 	[SUCCESSFUL ] com.thesamet#sbt-protoc;0.99.11!sbt-protoc.jar (8894ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/trueaccord/scalapb/compilerplugin_2.10/0.6.0/compilerplugin_2.10-0.6.0.jar
 [info] downloading https://repo1.maven.org/maven2/com/trueaccord/scalapb/compilerplugin_2.10/0.6.0/compilerplugin_2.10-0.6.0.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/trueaccord/scalapb/compilerplugin_2.10/0.6.0/compilerplugin_2.10-0.6.0.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/trueaccord/scalapb/compilerplugin_2.10/0.6.0/compilerplugin_2.10-0.6.0.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/trueaccord/scalapb/compilerplugin_2.10/0.6.0/compilerplugin_2.10-0.6.0.jar
-[info] 	[SUCCESSFUL ] com.trueaccord.scalapb#compilerplugin_2.10;0.6.0!compilerplugin_2.10.jar (3697ms)
+[info] 	[SUCCESSFUL ] com.trueaccord.scalapb#compilerplugin_2.10;0.6.0!compilerplugin_2.10.jar (5194ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/github/os72/protoc-jar/3.3.0/protoc-jar-3.3.0.jar
 [info] downloading https://repo1.maven.org/maven2/com/github/os72/protoc-jar/3.3.0/protoc-jar-3.3.0.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/os72/protoc-jar/3.3.0/protoc-jar-3.3.0.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/os72/protoc-jar/3.3.0/protoc-jar-3.3.0.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/github/os72/protoc-jar/3.3.0/protoc-jar-3.3.0.jar
-[info] 	[SUCCESSFUL ] com.github.os72#protoc-jar;3.3.0!protoc-jar.jar (15350ms)
+[info] 	[SUCCESSFUL ] com.github.os72#protoc-jar;3.3.0!protoc-jar.jar (33253ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/trueaccord/scalapb/protoc-bridge_2.10/0.2.7/protoc-bridge_2.10-0.2.7.jar
 [info] downloading https://repo1.maven.org/maven2/com/trueaccord/scalapb/protoc-bridge_2.10/0.2.7/protoc-bridge_2.10-0.2.7.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/trueaccord/scalapb/protoc-bridge_2.10/0.2.7/protoc-bridge_2.10-0.2.7.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/trueaccord/scalapb/protoc-bridge_2.10/0.2.7/protoc-bridge_2.10-0.2.7.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/trueaccord/scalapb/protoc-bridge_2.10/0.2.7/protoc-bridge_2.10-0.2.7.jar
-[info] 	[SUCCESSFUL ] com.trueaccord.scalapb#protoc-bridge_2.10;0.2.7!protoc-bridge_2.10.jar (1233ms)
+[info] 	[SUCCESSFUL ] com.trueaccord.scalapb#protoc-bridge_2.10;0.2.7!protoc-bridge_2.10.jar (1045ms)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.6!scala-library.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.3.1/protobuf-java-3.3.1.jar
 [info] downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.3.1/protobuf-java-3.3.1.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.3.1/protobuf-java-3.3.1.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.3.1/protobuf-java-3.3.1.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.3.1/protobuf-java-3.3.1.jar
-[info] 	[SUCCESSFUL ] com.google.protobuf#protobuf-java;3.3.1!protobuf-java.jar(bundle) (3232ms)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/commons-io/commons-io/2.5/jars/commons-io.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/commons-io/commons-io/2.5/jars/commons-io.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/commons-io/commons-io/2.5/jars/commons-io.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/commons-io/commons-io/2.5/jars/commons-io.jar
-[debug] 		tried /Users/worasitdaimongkol/.ivy2/local/commons-io/commons-io/2.5/jars/commons-io.jar
-[debug] 		tried https://repo1.maven.org/maven2/commons-io/commons-io/2.5/commons-io-2.5.jar
-[info] downloading https://repo1.maven.org/maven2/commons-io/commons-io/2.5/commons-io-2.5.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/commons-io/commons-io/2.5/commons-io-2.5.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/commons-io/commons-io/2.5/commons-io-2.5.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/commons-io/commons-io/2.5/commons-io-2.5.jar
-[info] 	[SUCCESSFUL ] commons-io#commons-io;2.5!commons-io.jar (1850ms)
+[info] 	[SUCCESSFUL ] com.google.protobuf#protobuf-java;3.3.1!protobuf-java.jar(bundle) (2799ms)
+[debug] 	[NOT REQUIRED] commons-io#commons-io;2.5!commons-io.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.16!sbt.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#main;0.13.16!main.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.16!compiler-interface.jar
@@ -7015,19 +6936,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 78868ms :: artifacts dl 45096ms
-[debug] 	report for default#ota_protobuf-build;0.1-SNAPSHOT compile produced in /Users/worasitdaimongkol/Repositories/ota_protobuf/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-ota_protobuf-build-compile.xml
-[debug] 	report for default#ota_protobuf-build;0.1-SNAPSHOT runtime produced in /Users/worasitdaimongkol/Repositories/ota_protobuf/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-ota_protobuf-build-runtime.xml
-[debug] 	report for default#ota_protobuf-build;0.1-SNAPSHOT test produced in /Users/worasitdaimongkol/Repositories/ota_protobuf/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-ota_protobuf-build-test.xml
-[debug] 	report for default#ota_protobuf-build;0.1-SNAPSHOT provided produced in /Users/worasitdaimongkol/Repositories/ota_protobuf/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-ota_protobuf-build-provided.xml
-[debug] 	report for default#ota_protobuf-build;0.1-SNAPSHOT optional produced in /Users/worasitdaimongkol/Repositories/ota_protobuf/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-ota_protobuf-build-optional.xml
-[debug] 	report for default#ota_protobuf-build;0.1-SNAPSHOT compile-internal produced in /Users/worasitdaimongkol/Repositories/ota_protobuf/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-ota_protobuf-build-compile-internal.xml
-[debug] 	report for default#ota_protobuf-build;0.1-SNAPSHOT runtime-internal produced in /Users/worasitdaimongkol/Repositories/ota_protobuf/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-ota_protobuf-build-runtime-internal.xml
-[debug] 	report for default#ota_protobuf-build;0.1-SNAPSHOT test-internal produced in /Users/worasitdaimongkol/Repositories/ota_protobuf/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-ota_protobuf-build-test-internal.xml
-[debug] 	report for default#ota_protobuf-build;0.1-SNAPSHOT plugin produced in /Users/worasitdaimongkol/Repositories/ota_protobuf/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-ota_protobuf-build-plugin.xml
-[debug] 	report for default#ota_protobuf-build;0.1-SNAPSHOT sources produced in /Users/worasitdaimongkol/Repositories/ota_protobuf/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-ota_protobuf-build-sources.xml
-[debug] 	report for default#ota_protobuf-build;0.1-SNAPSHOT docs produced in /Users/worasitdaimongkol/Repositories/ota_protobuf/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-ota_protobuf-build-docs.xml
-[debug] 	report for default#ota_protobuf-build;0.1-SNAPSHOT pom produced in /Users/worasitdaimongkol/Repositories/ota_protobuf/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-ota_protobuf-build-pom.xml
-[debug] 	report for default#ota_protobuf-build;0.1-SNAPSHOT scala-tool produced in /Users/worasitdaimongkol/Repositories/ota_protobuf/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-ota_protobuf-build-scala-tool.xml
-[debug] 	resolve done (78868ms resolve - 45096ms download)
+[debug] :: resolution report :: resolve 59382ms :: artifacts dl 51288ms
+[debug] 	report for default#ota_protobuf-build;0.1-SNAPSHOT compile produced in /Users/wdaimongkol/PrivateRepositories/ota_protobuf/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-ota_protobuf-build-compile.xml
+[debug] 	report for default#ota_protobuf-build;0.1-SNAPSHOT runtime produced in /Users/wdaimongkol/PrivateRepositories/ota_protobuf/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-ota_protobuf-build-runtime.xml
+[debug] 	report for default#ota_protobuf-build;0.1-SNAPSHOT test produced in /Users/wdaimongkol/PrivateRepositories/ota_protobuf/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-ota_protobuf-build-test.xml
+[debug] 	report for default#ota_protobuf-build;0.1-SNAPSHOT provided produced in /Users/wdaimongkol/PrivateRepositories/ota_protobuf/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-ota_protobuf-build-provided.xml
+[debug] 	report for default#ota_protobuf-build;0.1-SNAPSHOT optional produced in /Users/wdaimongkol/PrivateRepositories/ota_protobuf/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-ota_protobuf-build-optional.xml
+[debug] 	report for default#ota_protobuf-build;0.1-SNAPSHOT compile-internal produced in /Users/wdaimongkol/PrivateRepositories/ota_protobuf/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-ota_protobuf-build-compile-internal.xml
+[debug] 	report for default#ota_protobuf-build;0.1-SNAPSHOT runtime-internal produced in /Users/wdaimongkol/PrivateRepositories/ota_protobuf/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-ota_protobuf-build-runtime-internal.xml
+[debug] 	report for default#ota_protobuf-build;0.1-SNAPSHOT test-internal produced in /Users/wdaimongkol/PrivateRepositories/ota_protobuf/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-ota_protobuf-build-test-internal.xml
+[debug] 	report for default#ota_protobuf-build;0.1-SNAPSHOT plugin produced in /Users/wdaimongkol/PrivateRepositories/ota_protobuf/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-ota_protobuf-build-plugin.xml
+[debug] 	report for default#ota_protobuf-build;0.1-SNAPSHOT sources produced in /Users/wdaimongkol/PrivateRepositories/ota_protobuf/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-ota_protobuf-build-sources.xml
+[debug] 	report for default#ota_protobuf-build;0.1-SNAPSHOT docs produced in /Users/wdaimongkol/PrivateRepositories/ota_protobuf/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-ota_protobuf-build-docs.xml
+[debug] 	report for default#ota_protobuf-build;0.1-SNAPSHOT pom produced in /Users/wdaimongkol/PrivateRepositories/ota_protobuf/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-ota_protobuf-build-pom.xml
+[debug] 	report for default#ota_protobuf-build;0.1-SNAPSHOT scala-tool produced in /Users/wdaimongkol/PrivateRepositories/ota_protobuf/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-ota_protobuf-build-scala-tool.xml
+[debug] 	resolve done (59382ms resolve - 51288ms download)
 [info] Done updating.
