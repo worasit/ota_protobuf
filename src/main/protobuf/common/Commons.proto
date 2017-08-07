@@ -1,6 +1,7 @@
 syntax = "proto2";
 
 option java_package = "com.nongped.protobuf.common";
+option java_outer_classname = "OtaCommons";
 option optimize_for = SPEED;
 
 enum OccupancyModel {

@@ -1,6 +1,7 @@
 syntax = "proto2";
 
 option java_package = "com.nongped.protobuf.queue";
+option java_outer_classname = "OtaApiCommons";
 
 message StatusApplicationControl {
     required int64 startDateInMillis = 1;
